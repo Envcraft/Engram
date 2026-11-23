@@ -21,12 +21,3 @@ print(type(active))  # <class 'bool'>
 result = None
 print(result)        # None
 print(type(result))  # <class 'NoneType'>
-
-# Type conversion
-num_str = "42"
-num = int(num_str)   # str -> int
-print(num + 1)       # 43
-
-pi = 3.14
-print(int(pi))       # 3  (truncates decimal)
-print(str(100))      # "100"
